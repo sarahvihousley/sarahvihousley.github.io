@@ -5,10 +5,9 @@
 }
 
 h1 {
-    align: center;
+   text-align: center;
 }
 
 p {
-    align: center;
-    
+  text-align: center;
 }
