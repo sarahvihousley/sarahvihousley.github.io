@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
 <meta name="description" content="Assignment portal for Sarah Clark in CIT 230: Web Frontend Development at Brigham Young University - Idaho">
-  <title>Sarah Clark CIT 230</title>
+<title>Sarah Clark CIT 230</title>
 </head> 
 <body>
   <link rel="stylesheet" href="index.css">
@@ -19,9 +19,10 @@
     </ul>
   <footer style="border: 30px solid plum">
     <p>2020 | Sarah V.I. Clark | Utah | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+    <p id="demo"></p>
     <script>
-    var date = document.lastModified;
-    document.write("Last Modified: "+date);
+      var d = new Date(document.lastModified);
+      document.getElementById("demo").innerHTML = d;
     </script>
     </footer>
     </body>
