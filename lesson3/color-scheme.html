@@ -5,18 +5,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
         <meta name="description" content="Weather Site for Sarah Clark in CIT 230: Web Frontend Development at Brigham Young University - Idaho">
         <title>Custom Weather Channels</title>
+        <link href="normalize.css" rel="stylesheet">
+        <link href="weather.css" rel="stylesheet">
     </head>
     
     <body>
-        <link rel="stylesheet" href="weather.css">
-        <img src="images/logo.jpg" alt="logo" width="130">
+        <header>
+            <img src="images/logo.jpg" alt="logo">
+            <section class="headings">
+            <h1>Custom Weather Channels</h1>
+            <div class="catch"><p>Your Local Weather</p></div>
+            </section>
+        </header>
+       
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="">Preston</a></li>
-            <li><a href="">Soda Springs</a></li>
-            <li><a href="">Fish Haven</a></li>
-            <li><a href="">Storm Center</a></li>
-            <li><a href="">Gallery</a></li>
             <li><a href="target-audience.html">Target audience</a></li>
             <li><a href="color-scheme.html">Color Scheme</a></li>
             <li><a href="typography.html">Typography</a></li>
@@ -25,5 +28,10 @@
         <h1>Color Scheme</h1>>
         <p>Website header will be #1d8f50 with white text. Primary Navigation will be #adffa8 with black text. Footer navigation will be #30ffa5 with black text. </p>
         <p>all header styles will be #1d8f50 with white background and the paragraphs will be black.</p>
+        <footer>
+            &copy; Custom Weather Channels 2020 | St. George, Utah | Sarah Clark
+            <br/>
+            Last Updated: <script>document.write(document.lastModified);</script>
+        </footer>
     </body>
 </html>
