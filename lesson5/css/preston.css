@@ -1,13 +1,15 @@
-@media only screen and (max-width: 600px) {
-header img {
-    width: 60px;
-    height: 60px;
-}
-
 body {
     background-color: white;
     padding: 0;
     margin: 0;
+}
+
+#alert {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  background-color: cornsilk;
+  width: 100%;
 }
 
 header {
@@ -18,92 +20,182 @@ header {
     justify-content: center;
 }
 
-.headings {
-    display: flex;
-    flex-direction: column;
+header section {
+  text-align: center;
+  margin: auto;
 }
 
-.headings h1 {
-    font-size: 1.2rem;
-    margin: 0 0 0 17px;
+header div {
+  display: flex;
+}
+
+header img {
+  height: 100px;
+  margin: auto;
+}
+
+header, footer {
+  text-align: center;
+  color: black;
+  padding: 0.5em;
+}
+
+.m {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: #fffff0;
+	margin-left: 20px;
+	font-size: .9rem;
 }
 
 nav {
-    background-color: pink;
-    padding: 30px;
-    display: block;
-    list-style-type: none;
-    text-align: center;
-    width: 100%;
-}
-.dropbtn {
-    background-color: palevioletred;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {
-      background-color: #f1f1f1
-    }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-.catch {
-    font-style: italic;
-    font-size: larger;
-    margin-left: 17px;
+  margin: 0 auto;
+  background-color: pink;
+  text-align: center;
+  align-content: center;
 }
 
-.contentbox {
-    display: block;
-    margin: 10px auto;
-    border: 1px dashed black;
-    padding: 15px;
-    color: palevioletred;
-    font-style: italic;
+nav button {
+  margin: 20px 2%;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  color: gray;
 }
 
-li {
-    list-style-type: none;
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: pink;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.5em 2em 0.5em 2em ;
+  color: black;
+}
+nav ul li a:hover {
+  background-color: #fffff0;
+  color: black;
+}
+
+nav ul li.active a {
+  background-color: coral;
+  font-weight: bold;
+}
+
+nav ul.hide {
+  display: none
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+main {
+  text-align: center;
+}
+
+main section {
+  background-color: peachpuff;
+  margin: 8px 6px;
+  padding: 12px;
+  text-align: start;
+}
+
+.hero {
+  position: relative;
+}
+
+.heroimg {
+  display: block;
+  width: 100%;
+}
+
+.sunny {
+  display: block;
+  margin: auto;
+  width: 37%;
+}
+
+.hero div { 
+  position: absolute;
+  top: 120px;
+  left: 36px;
+  border: 1px solid #000000;
+  justify-content: center;
+  background-color: pink;
+  padding: 12px 0;
+}
+
+.hero div p {
+  margin: 0;
+}
+
+.forecast {
+  background-color: pink;
+  display: none;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  grid-template-columns: 120px 120px 120px 120px 120px;
+}
+
+.forecast h2 {
+  grid-column-start: span  5;
+  justify-content: center;
+}
+
+div.weather img {
+  display: block;
+  margin: 0 auto;
+}
+
+div.weathertype {
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+img.article {
+  width: 100%;
+  max-width: 600px;
+  float: right;
+}
+
+.contact {
+  background-color: pink;
+  position: relative;
+  margin: auto;
+  height: 250px;
+  font-size: 16px;
+  padding: 12px;
+}
+
+.contact img {
+  height: 16px;
+  margin: 0 3px;
+}
+
+iframe {
+  width: 300px; 
+  height: 250px;
+  border: 0;
+}
+
+.map {
+display: none;
 }
 
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
     background-color: peachpuff;
-    color: black;
     text-align: center;
-    padding: 10px;
+    position: relative;
+    padding: 10px 0px;
+    margin: auto;
 }
-p {
-  font-family: 'Open Sans', sans-serif;
-}
+footer p {
+  margin: 0;
 }
