@@ -9,12 +9,12 @@
         <link rel="stylesheet" href="css/preston.css">
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
-        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="shortcut icon" href="images/favicon.ico">
         <title>Preston Page</title>
     </head>
 
 <body>
-    <div id="alert"><p>Saturday = Preston Pancakes in the Park!</p>
+    <div><span id="alert"><p>Saturday = Preston Pancakes in the Park!</p></span>
     <p>Saturday on the city park pavilion.</p></div>
 <header>
     <div>
@@ -29,8 +29,8 @@
 <nav class="clearfix">
     <button onclick="toggleMenu()">&#9776; Menu</button>
     <ul id="pureNav" class="hidden">
-            <li><a href="home.html">Home</a></li>
-            <li class="active"><a href="preston-5.html">Preston</a></li>               
+            <li><a href="">Home</a></li>
+            <li class="active"><a href="preston-6.html">Preston</a></li>               
             <li><a href="">Soda Springs</a></li>
             <li><a href="">Fish Haven</a></li>
             <li><a href="">Storm Center</a></li>
@@ -41,14 +41,17 @@
         <main>
             <h2>Preston Idaho</h2>
             <section class="hero">
-                <img class="heroimg" src="images/sky.jpg" alt="sky">
+                <picture class="heroimg"> 
+                <source media="(max-width: 559px)" srcset="images/sky-small.jpg">
+                <source media="(max-width: 1023px)" srcset="images/sky-med.jpg">
+                    <img src="images/sky-large.jpg" alt="Sky">
+                </picture>
             <div class="weather">
              <h2>Weather</h2>
                 <p> Currently: Sunny</p>
-                <p> High: 46 &#7506;F</p>
-                <p> Low: 32 &#7506;F</p>
-                <p> Wind Chill: 29 &#7506;F</p>
-                <p> Wind Speed: 10 mph</p>
+                <p> Temperature: <span id="temp">46</span>&#7506;F</p>
+                <p> Wind Chill: <span id="wc">29</span>&#7506;F</p>
+                <p> Wind Speed: <span id="ws">10</span>mph</p>
                 <p> Humidity: 37%</p>
              </div>
 
@@ -103,8 +106,10 @@
 
     <footer>
         <p>&copy; Custom Weather Channels 2020 | St. George, Utah | Sarah Clark | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
-        <p id="date"></p>
+        <span id="date"></span>
     </footer>
-    <script src="js/preston.js"></script>
+    <script src="js/date.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/menu.js"></script>
 </body>
 </html>
