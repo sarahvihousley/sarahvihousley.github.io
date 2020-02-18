@@ -27,7 +27,7 @@
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 
-	.galleryPic {
+	.galleryPic figure:hover {
 		box-shadow: 0 0 30px black
 	}
 }
