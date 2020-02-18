@@ -1,0 +1,33 @@
+@media only screen and (min-width: 64rem) {
+
+    header {
+		height: 160px;
+	}
+
+	header img {
+		height: 140px;
+		width: 140px;
+		margin: auto;
+	  }
+
+	nav {
+		padding: 10px 16px;
+	}
+
+	main section {
+		margin: auto;
+	}
+
+	footer, main {
+		width: 920px;
+		margin: auto;
+	}
+
+	.galleryPic {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	.galleryPic {
+		box-shadow: 0 0 30px black
+	}
+}

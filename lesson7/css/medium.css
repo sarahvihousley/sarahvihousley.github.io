@@ -1,0 +1,58 @@
+@media only screen and (min-width: 40rem) {
+	
+header img {
+	height: 120px;
+	width: 120px;
+	margin: auto;
+}
+
+nav button {
+	display: none;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	border: none;
+}
+
+nav ul.hide {
+	display: block;
+}
+
+.forecast {
+	display: grid;
+}
+
+img.article {
+	width: 40%;
+}
+
+.contact {
+	flex-direction: row;
+	height: 250px;
+}
+
+.contact > div {
+	margin-right: 7px;
+}
+
+.map {
+	display: block;
+	float: left;
+	width: 37%;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.galleryPic {
+	grid-template-columns: 1fr 1fr;
+	box-shadow: 0 0 30px black
+}
+}

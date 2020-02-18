@@ -1,0 +1,240 @@
+
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+#alert {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  background-color: cornsilk;
+  width: 100%;
+}
+
+header {
+    background-color: peachpuff;
+    padding: 5px 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+header section {
+  text-align: center;
+  margin: auto;
+}
+
+header div {
+  display: flex;
+}
+
+header img {
+  height: 100px;
+  margin: auto;
+}
+
+header, footer {
+  text-align: center;
+  color: black;
+  padding: 0.5em;
+}
+
+.m {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: #fffff0;
+	margin-left: 20px;
+	font-size: .9rem;
+}
+
+nav {
+  margin: 0 auto;
+  background-color: pink;
+  text-align: center;
+  align-content: center;
+}
+
+nav button {
+  margin: 20px 2%;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  color: gray;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: pink;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.5em 2em 0.5em 2em ;
+  color: black;
+}
+nav ul li a:hover {
+  background-color: #fffff0;
+  color: black;
+}
+
+nav ul li.active a {
+  background-color: coral;
+  font-weight: bold;
+}
+
+nav ul.hide {
+  display: none
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+main {
+  text-align: center;
+}
+
+main section {
+  background-color: peachpuff;
+  margin: 8px 6px;
+  padding: 12px;
+  text-align: start;
+}
+
+.hero {
+  position: relative;
+}
+
+picture.heroimg img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.sunny {
+  display: block;
+  margin: auto;
+  width: 37%;
+}
+
+.hero div { 
+  position: absolute;
+  top: 120px;
+  left: 36px;
+  border: 1px solid #000000;
+  justify-content: center;
+  background-color: pink;
+  padding: 12px 0;
+}
+
+.hero div p {
+  margin: 0;
+}
+
+.forecast {
+  background-color: pink;
+  display: none;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  grid-template-columns: 120px 120px 120px 120px 120px;
+}
+
+.forecast h2 {
+  grid-column-start: span  5;
+  justify-content: center;
+}
+
+div.weather img {
+  display: block;
+  margin: 0 auto;
+}
+
+div.weathertype {
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+img.article {
+  width: 100%;
+  max-width: 600px;
+  float: right;
+}
+
+.contact {
+  background-color: pink;
+  position: relative;
+  margin: auto;
+  height: 250px;
+  font-size: 16px;
+  padding: 12px;
+}
+
+.contact img {
+  height: 16px;
+  margin: 0 3px;
+}
+
+iframe {
+  width: 300px; 
+  height: 250px;
+  border: 0;
+}
+
+.map {
+display: none;
+}
+
+footer {
+    background-color: peachpuff;
+    text-align: center;
+    position: relative;
+    padding: 10px 0px;
+    margin: auto;
+}
+footer p {
+  margin: 0;
+}
+
+#gallery {
+  text-align: center;
+  color: black;
+}
+
+.galleryPic {
+  display: grid;
+  grid-auto-columns: 1fr;
+  justify-content: center;
+  margin: auto;
+  width: 97%;
+  box-shadow: 0 0 30px black
+}
+
+.galleryPic picture img {
+  width: 100%;
+  height: 300px;
+}
+
+.galleryPic picture {
+  margin: 10px;
+}
+
+figcaption {
+  line-height: 20px;
+  font-size: 20px;
+}
+
+img[data-src] {
+  filter: blur(3px);
+}
+
+img {
+  filter: blur(0px);
+  transition: filter 2s;
+}
