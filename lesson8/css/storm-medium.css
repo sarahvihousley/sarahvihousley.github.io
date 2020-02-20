@@ -1,0 +1,27 @@
+@media only screen and (min-width: 40rem) {
+	
+header img {
+	height: 120px;
+	width: 120px;
+	margin: auto;
+}
+
+.pureNav{
+	display:flex;
+	
+}
+.pureNav li:first-child{
+	display:none;
+}
+.pureNav li {
+	display:block;
+	flex:1 1 100%;
+}
+
+#banner {
+	display: none;
+	background-color: bisque;
+	line-height: 30px;
+	font-size: 18px;
+}
+}
