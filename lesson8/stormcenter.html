@@ -58,7 +58,9 @@
                 <option value="Hurricane"></option>
                 <option value="Flash Flood"></option>
             </datalist>
-            <label class="severity">Storm Severity (1-10): <input type="range" name="severity" min="1" max="10" step="1" list="topmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span id="ratingvalue">5</span>
+            <label class="severity">Storm Severity (1-10): 
+                <input type="range" name="severity" min="1" max="10" step="1" list="topmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                <span id="ratingvalue">5</span>
                 </label>
             <datalist id="marks">
                 <option value="1"></option>
@@ -98,7 +100,8 @@
         <span id="date"></span>
     </footer>
     <script src="js/date.js"></script>
-    <script src="js/windchill.js"></script>
+    <script src="js/display.js"></script>
     <script src="js/menu.js"></script>
+    <script src="js/rating.js"></script>
 </body>
 </html>

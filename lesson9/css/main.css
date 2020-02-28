@@ -97,81 +97,45 @@ footer p {
   margin: 0;
 }
 
-/* Report */
-
-#storm-head {
-  color: Black;
-  text-align: center;
+section.towns {
+	display: flex;
+	flex-direction: column;
+	align-items:stretch;
 }
 
-form fieldset {
-  margin: 2rem 0;
-  border: 1px solid black;
-  border-radius: 10px;
-  padding: .5rem 2%;
-  background-color:pink;
-  text-align: left;
+section article {
+	justify-content: center;
+	text-align: center;
+	border:1.5px solid black;
+	width:100%;
+	margin-top:2%;
+	margin-bottom:2%;
+	background:lightgrey;
 }
 
-form legend{
-  margin:0 1rem;
-  padding:0 .5rem;
-  color:black;
+div.box {
+	margin:10px;
+	padding:5px;
+	background:white;
+	box-shadow: 3px 3px 5px black;
 }
 
-form label.top, form div {
-  color:black;
-  display:block;
-  font-size:smaller;
-  padding-top:1rem;
-  padding-bottom:1rem;
+article div p.p1 {font-size: .75em;font-style: italic;}
+article div h3 {color:black;}
+
+article.index-page p {
+	margin:2%;
+	padding:0;
+	text-align: justify;
+	text-justify:inter-word;
+
 }
 
-form label.top input, form label.top select{
-  display:block;
-  padding: .5rem;
-  border-radius:4px;
-  border:1px solid gray;
-  width:100%;
-  max-width:20rem;
-}
-form label.severity{
-  display:flex;
-  color: black;
-  font-size: smaller;
-  align-items: center;
-}
-
-#ratingvalue{
-  margin: 0 1rem;
-}
-
-form label.btn{
-  display:block;
-  padding: 0.75rem;
-  font-size:0.75rem;
-}
-
-textarea{
-  width:100%;
-  height:8em;
-  max-width:70%;
-}
-
-form input.lastBtn{
-  background-color: palevioletred;
-  border: none;
-  padding: .5rem;
-  margin-bottom: 1.5%;
-  width: 150px;
-}
-
-#thanksmsg{
-  font-size:16px;
-  color: #000;
-  text-align: center;
-  width:80%;
-  max-width:1200px;
-  margin:10rem auto;
+article div img {
+	width:100%;
+	margin-top:10px;
+	margin-bottom:0;
+	padding:0;
+	box-shadow: 5px 5px 5px 5px white inset;
 }
 
