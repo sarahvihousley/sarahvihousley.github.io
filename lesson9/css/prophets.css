@@ -4,6 +4,9 @@ h1, h2, p, footer {
 
 h1, h2 {
     color: rgb(76,78,145);
+    font-family: 'henderson-slab-basic', serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 main {
