@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+        <meta name="description" content="Weather Site for Sarah Clark in CIT 230: Web Frontend Development at Brigham Young University - Idaho">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <title>Home Page</title>
+    </head>
+
+<body onload="display_banner()">
+ <div id="banner"></div>
+<header>
+    <div>
+     <img src="images/logo.jpg" alt="logo" width="100">
+        <section class="headings">
+        <h1>Custom Weather Channels</h1>
+        <div class="m"><p>Your Local Weather</p></div>
+        </section>
+    </div>
+</header>
+
+<nav>
+    <ul class="pureNav">
+        <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
+        <li class="active"><a href="">Home</a></li>
+        <li><a href="lesson6/preston-6.html">Preston</a></li>               
+        <li><a href="">Soda Springs</a></li>
+        <li><a href="">Fish Haven</a></li>
+        <li><a href="lesson8/stormcenter.html">Storm Center</a></li>
+        <li><a href="lesson7/gallery-7.html">Gallery</a></li>
+     </ul>
+</nav>
+<body>
+    <h1>OpenWeatherMap.org API Test</h1>
+    <p>The current temperature in Preston, Idaho is <span id="current-temp"></span>&deg; F</p>
+    <hr>
+    <p>Image Icon Path Test: <span id="imagesrc"></span> &nbsp; <img src="" alt="" id="weather icon"></p>
+</body>
+
+    <footer>
+        <p>&copy; Custom Weather Channels 2020 | St. George, Utah | Sarah Clark | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+        <span id="date"></span>
+    </footer>
+    <script src="js/date.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/weatherapi.js"></script>
+</body>
+</html>
