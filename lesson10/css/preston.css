@@ -112,14 +112,12 @@ main {
 }
 
 .weather {
- position: absolute;
- grid-template-columns: auto auto;
- top: 20px;
- left: 30px;
- border: 1px solid black;
- background: peachpuff;
- max-width: 75%;
- padding: 10px 7px 10px 7px;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  border: 1px solid black;
+  background: peachpuff;
+  padding: 10px 7px 10px 7px;
 }
 
 .weather div {
