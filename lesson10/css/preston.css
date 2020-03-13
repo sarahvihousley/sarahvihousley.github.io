@@ -1,0 +1,204 @@
+/* Main */
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+#alert {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  background-color: cornsilk;
+  width: 100%;
+}
+
+header {
+    background-color: peachpuff;
+    padding: 5px 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+header section {
+  text-align: center;
+  margin: auto;
+}
+
+header div {
+  display: flex;
+}
+
+header img {
+  height: 100px;
+  margin: auto;
+}
+
+header, footer {
+  text-align: center;
+  color: black;
+  padding: 0.5em;
+}
+
+.m {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: #fffff0;
+	margin-left: 20px;
+	font-size: .9rem;
+}
+
+/* Navigation */
+nav {
+  margin: 0 auto;
+  background-color: pink;
+  border: 0.5px solid #bbbbbb;
+}
+.pureNav {
+  text-align: center;
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+.pureNav li:first-child {
+  display: block;
+}
+.pureNav li {
+  display: none;
+}
+.pureNav a{
+  display: block;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+.responsive li{
+  display: block;
+}
+
+nav a:hover{
+  background-color: white;
+  color:black;
+  }
+
+.active{
+  background-color: palevioletred;
+}
+
+/* main section*/
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+main {
+  text-align: center;
+  margin: 8px 6px;
+  padding: 12px;
+  text-align: start;
+}
+
+.hero{ 
+ position: relative;
+ margin: 10px auto;
+ display: inline-block;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.weather {
+ position: absolute;
+ grid-template-columns: auto auto;
+ top: 20px;
+ left: 30px;
+ border: 1px solid black;
+ background: peachpuff;
+ max-width: 75%;
+ padding: 10px 7px 10px 7px;
+}
+
+.weather div {
+  display: block;
+}
+
+.weatherhead {
+  text-align: center;
+  grid-column: 1 / span 2;
+}
+
+.brace {
+  text-align: center;
+  color: black;
+  margin: 2px;
+}
+
+.forecasthead {
+  display: none;
+}
+
+.forecast {
+  background-color: pink;
+  display: none;
+  text-align: center;
+  justify-content: center;
+  grid-template-columns: 120px 120px 120px 120px 120px;
+}
+
+div.weather img {
+  display: block;
+  margin: 0 auto;
+}
+
+div.weathertype {
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.idahoarticle {
+  width: 100%;
+}
+
+.article {
+  width: 100%;
+}
+
+.contact {
+  background-color: pink;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  height: 250px;
+  font-size: 16px;
+  justify-content: center;
+}
+
+.contact img {
+  height: 16px;
+  margin: 0 3px;
+}
+
+iframe {
+  width: 300px; 
+  height: 250px;
+  border: 0;
+}
+
+.map {
+display: none;
+}
+
+footer {
+    background-color: peachpuff;
+    text-align: center;
+    position: relative;
+    padding: 10px 0px;
+    margin: auto;
+}
+footer p {
+  margin: 0;
+}

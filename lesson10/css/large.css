@@ -18,16 +18,22 @@
 		margin: auto;
 	}
 
-	footer, main {
+	.article {
+		max-width: 350px;
+	}
+
+	.idahoarticle {
 		width: 920px;
 		margin: auto;
 	}
 
-	form label.top input, form label.top select {
-		max-width: 30rem;
+	.contact {
+		width: 920px;
+		margin: auto;
 	}
-	
-	#thanksmsg{
-		font-size: 24px;
+
+	footer, main {
+		width: 920px;
+		margin: auto;
 	}
 }
