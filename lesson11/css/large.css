@@ -1,0 +1,39 @@
+@media only screen and (min-width: 64rem) {
+
+    header {
+		height: 160px;
+	}
+
+	header img {
+		height: 140px;
+		width: 140px;
+		margin: auto;
+	  }
+
+	nav {
+		padding: 10px 16px;
+	}
+
+	main section {
+		margin: auto;
+	}
+
+	.article {
+		max-width: 350px;
+	}
+
+	.idahoarticle {
+		width: 920px;
+		margin: auto;
+	}
+
+	.contact {
+		width: 920px;
+		margin: auto;
+	}
+
+	footer, main {
+		width: 920px;
+		margin: auto;
+	}
+}

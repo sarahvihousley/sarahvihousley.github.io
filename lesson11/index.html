@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+        <meta name="description" content="Weather Site for Sarah Clark in CIT 230: Web Frontend Development at Brigham Young University - Idaho">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <title>Preston Page</title>
+    </head>
+
+<body>
+    <div><span id="alert">Saturday = Preston Pancakes in the Park! Saturday on the city park pavilion.</span></div>
+<header>
+    <div>
+     <img src="images/logo.jpg" alt="logo" width="100">
+        <section class="headings">
+        <h1>Custom Weather Channels</h1>
+        <div class="m"><p>Your Local Weather</p></div>
+        </section>
+    </div>
+</header>
+
+<nav>
+    <ul class="pureNav">
+        <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
+        <li><a href="https://sarahvihousley.github.io/lesson9/home.html">Home</a></li>
+        <li class="active"><a href="https://sarahvihousley.github.io/lesson10/preston-10">Preston</a></li>               
+        <li><a href="">Soda Springs</a></li>
+        <li><a href="">Fish Haven</a></li>
+        <li><a href="https://sarahvihousley.github.io/lesson8/stormcenter.html">Storm Center</a></li>
+        <li><a href="https://sarahvihousley.github.io/lesson7/gallery-7.html">Gallery</a></li>
+     </ul>
+</nav>
+
+<main>
+    <h2>Preston Idaho</h2>
+        <div class="hero">
+                <img src="images/sky.jpg" alt="Sky">
+        <section class="weather">
+            <div class="weatherhead">
+            <h2>Weather</h2>
+            </div>
+                <div class="brace">Currently:&nbsp;&nbsp;<span id="condition"></span></div>
+                <div class="brace">Temperature:&nbsp;&nbsp;<span id="temp"></span>&#8457;</div>
+                <div class="brace">WindChill:&nbsp;&nbsp;<span id="windchill"></span>&#8457;</div>
+                <div class="brace">Humidity:&nbsp;&nbsp;<span id="humidity"></span>%</div>
+                <div class="brace">Wind Speed:&nbsp;&nbsp;<span id="windspeed"></span> mph</div>
+            </section>
+        </div>
+        <h3 class="forecasthead">5 Day Forecast</h3>
+        <section class="forecast">
+            <div class="forecast-item">
+                <div class="day" id="day1">
+                </div>
+                <div class="weathertype">
+                    <img src="#" alt="weather" id="condition1">
+                </div>
+                <div class="temp">
+                    <div class="daytemp"><span id="forecast1"></span>&#8457;</div>
+                </div>
+            </div>
+            <div class="forecast-item">
+                <div class="day" id="day2">
+                </div>
+                <div class="weathertype">
+                    <img src="#" alt="weather" id="condition2">
+                </div>
+                <div class="temp">
+                    <div class="daytemp"><span id="forecast2"></span>&#8457;</div>
+                </div>
+            </div>
+            <div class="forecast-item">
+                <div class="day" id="day3">
+                </div>
+                <div class="weathertype">
+                    <img src="#" alt="weather" id="condition3">
+                </div>
+                <div class="temp">
+                    <div class="daytemp"><span id="forecast3"></span>&#8457;</div>
+                </div>
+            </div>
+            <div class="forecast-item">
+                <div class="day" id="day4">
+                </div>
+                <div class="weathertype">
+                    <img src="#" alt="weather" id="condition4">
+                </div>
+                <div class="temp">
+                    <div class="daytemp"><span id="forecast4"></span>&#8457;</div>
+                </div>
+            </div>
+            <div class="forecast-item">
+                <div class="day" id="day5">
+                </div>
+                <div class="weathertype">
+                    <img src="#" alt="weather" id="condition5">
+                </div>
+                <div class="temp">
+                    <div class="daytemp"><span id="forecast5"></span>&#8457;</div>
+                </div>
+            </div>
+        </section>
+    
+
+        <section class="idahoarticle">
+            <img class="article" src="images/article.jpg" alt="winter">
+                <div>
+                    <h2>Idaho Road Weather</h2>
+                        <p>by Dwayne D. Johnson</p>
+                        <p>The Idaho Transportation Department (ITD) and the National Weather Service (NWS) are advising the traveling public to use caution while in transit due to an extended severe winter weather advisory beginning this evening Wed., Feb. 5.</p>
+                        <p>Drivers can expect high winds, blowing and drifting snow, low visibilty and heavy snow in higher elevations. Up to five inches of snow in the valley and nine inches in the mountains is expected over the next 24 hours, in Franklin County, the eastern part of Oneida County and north throughout the Snake River Plain.</p>
+                      </div> 
+                    </section>
+
+                <div class="contact">
+                    <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.487763552125!2d-111.87358429999999!3d42.0970234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f7e967e1ebc7%3A0x14469667cfe31546!2s30%20N%201st%20E%2C%20Preston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1581120314308!5m2!1sen!2sus"></iframe>
+                    </div>
+                    <h2>Contact Information</h2>
+                    <p>30 N 1st E</p>
+                    <p>Preston, ID 83263</p>
+                    <p><img src="images/phone.svg" alt="phone">999-999-9999</p>
+                    <p><img src="images/envelope.svg" alt="envelope">dwaynedjohnson@weatherrock.com</p>
+                    <p><img src="images/facebook.svg" alt="facebook">
+                    <img src="images/instagram.svg" alt="instagram">
+                    <img src="images/twitter.svg" alt="twitter"></p>
+            </div>
+            </main>
+
+    <footer>
+        <p>&copy; Custom Weather Channels 2020 | St. George, Utah | Sarah Clark | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+        <span id="date"></span>
+    </footer>
+    <script src="js/date.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/forecast.js"></script>
+</body>
+</html>

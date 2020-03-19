@@ -1,0 +1,62 @@
+@media only screen and (min-width: 40rem) {
+	
+	header img {
+		height: 120px;
+		width: 120px;
+		margin: auto;
+	}
+	
+	.pureNav{
+		display:flex;
+		
+	}
+	.pureNav li:first-child{
+		display:none;
+	}
+	.pureNav li {
+		display:block;
+		flex:1 1 100%;
+	}
+	
+	#banner {
+		display: none;
+		background-color: bisque;
+		line-height: 30px;
+		font-size: 18px;
+	}
+
+.forecasthead {
+	display: block;
+}
+
+.forecast {
+display: grid;
+}
+
+.idahoarticle {
+	max-width: 920px;
+	margin: auto;
+}
+
+img.article {
+	width: 40%;
+	float: right;
+}
+
+.contact {
+	flex-direction: row;
+	height: 250px;
+	max-width: 920px;
+	margin: auto;
+}
+
+.contact > div {
+	margin-right: 7px;
+}
+
+.map {
+	display: block;
+	float: left;
+	width: 37%;
+}
+}
