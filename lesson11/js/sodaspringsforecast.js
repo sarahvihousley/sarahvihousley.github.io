@@ -1,4 +1,4 @@
-const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&APPID=e13503e22a461e9043203aaf017f9f1d';
+const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&APPID=e4b0cc1a908e08acfe807161b82de367';
 var now = new Date();
 var dayOfWeek = now.getDay();
 

@@ -103,8 +103,9 @@ main {
 
 .hero{ 
  position: relative;
- margin: 10px auto;
  display: inline-block;
+ margin: 10px auto;
+ width: 100%;
 }
 
 .hero img {
@@ -155,6 +156,13 @@ div.weather img {
 div.weathertype {
   justify-content: center;
   margin-bottom: 8px;
+}
+
+#events {
+  text-align: center;
+  background-color: peachpuff;
+  box-shadow: 0 0 10px gray;
+  margin: 10px auto;
 }
 
 .idahoarticle {
