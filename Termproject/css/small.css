@@ -75,7 +75,7 @@ section a:hover {
     color: #b7e1aa;
 }
 
-/* adventures */
+/* Adventures */
     div.adventures {
     display: grid;
   }
@@ -86,6 +86,29 @@ section a:hover {
     margin: 0 auto;
     margin-top: .5rem;
   }
+
+/* River Guide */
+div {
+  margin: 0;
+}
+
+div.riverguide {
+  display: grid;
+}
+
+div.riverguide div {
+  background-color: rgb(231, 231, 231);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 10px solid rgb(219, 219, 219);
+}
+
+div.riverguide div img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: .5rem;
+}
   
 /* Weather Info */
    .bodypic {
