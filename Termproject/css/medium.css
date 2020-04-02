@@ -19,7 +19,54 @@
         flex: 1;
     }
 
-.main {
-    width: 85%
-}
+    /* main */
+    section {
+        width: 85%
+    }
+
+    /* contact */
+    .contact {
+        flex-direction: row;
+        height: 250px;
+        max-width: 920px;
+        margin: auto;
+    }
+    
+    .contact > div {
+        margin-right: 7px;
+    }
+    
+    .map {
+        display: block;
+        float: left;
+        width: 37%;
+    } 
+
+    /* adventures */
+    div.adventures {
+        display: block;
+    }
+
+    div.adventures section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    div.adventures div {
+        flex-flow: wrap;
+        padding: 12px;
+    }
+
+    div.adventures section:nth-child(odd){
+        flex-direction: row-reverse;
+    }
+    
+    div.adventures img {
+        margin: 0;
+		max-width: 50%;
+		height: 20rem;
+    } 
 }

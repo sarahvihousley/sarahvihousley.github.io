@@ -8,7 +8,21 @@
         padding: 4px;
     } 
 
-    .main {
+/* div */
+    section {
         width: 75%;
+    }
+
+/* adventures */
+    div.adventures {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    div.adventures section {
+        display: block;
+    }
+
+    div.adventures img {
+        max-width: 100%;
     }
 }

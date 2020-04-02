@@ -1,0 +1,28 @@
+{
+    "riverguide": [
+        {
+            "name": "Jospeh Knox",
+            "photo": "images/jospeh.jpg",
+            "certification": "Level 2 Certification, Basic Instructor",
+            "years": "3 Years of Instructing",
+            "email": "joeknox@salmonriveradventures.com",
+            "bio": "Jospeh Knox was born in Mecca, California. His family was very adventerous doing all sorts of outdoor events. After doing white river rafting at age 16, Joseph decided that he wanted to gain his certification in it to teach others. He gained his certification at 20 and recently joined our team here at Salmon River Adventures!" 
+        },
+        {
+            "name": "Alexia Perfoma",
+            "photo": "images/alexia.jpg",
+            "certification": "Level 3 Certification, Advanced Instructor",
+            "years": "4 Years of Instructing",
+            "email": "alexiaperfoma@salmonriveradventures.com",
+            "bio": "Alexia Perfoma was born in Banff, Canada. Alexia started white water rafting at age 12, and became an instructor at 18. She instructed in Banff for two years before joining our team at Salmon River Adventures."
+        },
+        {
+            "name": "Robert Cade",
+            "photo": "images/robert.jpg",
+            "certification": "Level 4 Certification, Advanced Instructor, R4 Open Men's champion.",
+            "years": "10 Years of Instructing",
+            "email": "robcade@salmonriveradventures.com",
+            "bio": "Robert Cade was born in Colorado Springs, Colorado. Robert started white water rafting at age 8 and entered into many competitions at 17. After winning the R4 Open Men's competetion with some friends, Robert deceided that he wanted to focus on teaching."
+        }
+    ]
+}
