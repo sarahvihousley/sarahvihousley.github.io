@@ -2,7 +2,7 @@
     "riverguide": [
         {
             "name": "Jospeh Knox",
-            "photo": "images/jospeh.jpg",
+            "photo": "jospeh.jpg",
             "certification": "Level 2 Certification, Basic Instructor",
             "years": "3 Years of Instructing",
             "email": "joeknox@salmonriveradventures.com",
@@ -10,7 +10,7 @@
         },
         {
             "name": "Alexia Perfoma",
-            "photo": "images/alexia.jpg",
+            "photo": "alexia.jpg",
             "certification": "Level 3 Certification, Advanced Instructor",
             "years": "4 Years of Instructing",
             "email": "alexiaperfoma@salmonriveradventures.com",
@@ -18,7 +18,7 @@
         },
         {
             "name": "Robert Cade",
-            "photo": "images/robert.jpg",
+            "photo": "robert.jpg",
             "certification": "Level 4 Certification, Advanced Instructor, R4 Open Men's champion.",
             "years": "10 Years of Instructing",
             "email": "robcade@salmonriveradventures.com",

@@ -22,11 +22,11 @@ fetch(requestURL)
         let bio = document.createElement('p')
         let image = document.createElement('img');
 
-        h2.textContent = towns[i].name;
-        h3.textContent = towns[i].certification;
-        years.textContent = "Years: " + towns[i].years;
-        email.textContent = "Email: " + towns[i].email;
-        bio.textContent = "Biography: " + towns[i].bio;
+        h2.textContent = riverguide[i].name;
+        h3.textContent = riverguide[i].certification;
+        years.textContent = "Years: " + riverguide[i].years;
+        email.textContent = "Email: " + riverguide[i].email;
+        bio.textContent = "Biography: " + riverguide[i].bio;
         image.setAttribute('src', 'images/' + riverguide[i].photo);
         image.setAttribute('alt', riverguide[i].name);
 
