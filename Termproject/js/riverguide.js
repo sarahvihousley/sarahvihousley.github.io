@@ -1,4 +1,4 @@
-const requestURL = "https://sarahvihousley.github.io/Termproject/json/riverguide.json"
+const requestURL = "https://sarahvihousley.github.io/Termproject/JSON/riverguide.json"
 
 fetch(requestURL)
   .then(function (response) {
@@ -10,7 +10,7 @@ fetch(requestURL)
     
 
     for (let i = 0; i < riverguide.length; i++ ) {
-        if (riverguide[i].name == 'Joseph Knox' || towns[i].name == 'Alexia Perfoma' || towns[i].name == 'Robert Cade') {
+        if (riverguide[i].name == '#' || riverguide[i].name == 'Joseph Knox' || riverguide[i].name == 'Alexia Perfoma' || riverguide[i].name == 'Robert Cade') {
         let riverguideDiv = document.createElement('div');
         let card = document.createElement('section');
         
