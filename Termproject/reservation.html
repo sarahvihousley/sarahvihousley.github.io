@@ -34,7 +34,63 @@
 <!-- Reservations -->
 <main>
     <section>
+        <table>
+            <tr>
+                <th> </th>
+                <th>Package 1</th>
+                <th>Package 2</th>
+                <th>Package 3</th>
+            </tr>
+            <tr>
+                <td class="side">Length</td>
+                <td>Half Day</td>
+                <td>Full Day</td>
+                <td>2 Day Trip</td>
+            </tr>
+            <tr>
+                <td class="side">Skill Level</td>
+                <td>Beginner</td>
+                <td>Intermediate</td>
+                <td>Advanced</td>
+            </tr>
+            <tr>
+                <td class="side">Cost(per person)</td>
+                <td>$70</td>
+                <td>$90</td>
+                <td>$120</td>
+            </tr>
+        </table>
 
+    </section>
+    <section>
+        <h2>Book a Reservation</h2>
+    <form>
+        <fieldset>
+            <p type="Name:">Name<input placeholder="John Doe..."></input></p>
+            <p type="Email:">Email<input placeholder="johndoe@example.com..."></input></p>
+            <p type="Number:">Phone Number<input placeholder="888-888-8888..."></input></p>
+            <label class="top">Packages:
+                <select name="packages">
+                <option value="" disabled="disabled" selected="selected">Select Package</option>
+                <option value="package1">Package 1</option>
+                <option value="package2">Package 2</option>
+                <option value="package3">Package 3</option>
+            </select>
+        </label>
+        <label class="top">Start Date:
+            <select name="packages">
+            <option value="" disabled="disabled" selected="selected">Select Package</option>
+            <option value="may2">May 2</option>
+            <option value="may9">May 9</option>
+            <option value="may16">May 16</option>
+            <option value="may23">May 23</option>
+            <option value="may30">May 30</option>
+        </select>
+    </label>
+        <p type="Message:">Message<input placeholder="More information..."></input></p>
+
+        <button>Submit</button>
+        </form>
     </section>
 </main>
 

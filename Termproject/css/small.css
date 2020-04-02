@@ -188,6 +188,29 @@ button:hover {
   }
 
 /* Reservation */
+table {
+  width: 100%;
+}
+
+td, th {
+  border: 2px solid #715858;
+  text-align: left;
+  padding: 10px;
+}
+
+.side {
+  font-weight: bold;
+}
+
+.side, th {
+  background-color: #A57272;
+  color: #EDF9E3
+}
+
+td {
+  background-color: #b7e1aa;
+  color: #715858;
+}
 
 /* footer */
 footer {
