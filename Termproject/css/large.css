@@ -25,4 +25,18 @@
     div.adventures img {
         max-width: 100%;
     }
+
+/* riverguide */
+    div.riverguide {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+    div.riverguide div {
+        display: block;
+    }
+
+    div.riverguide img {
+        max-width: 100%;
+    }
+
 }

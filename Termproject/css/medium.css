@@ -69,4 +69,33 @@
 		max-width: 50%;
 		height: 20rem;
     } 
+
+    /* river guide */
+    div.riverguide {
+        display: block;
+    }
+
+    div.riverguide div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    div.riverguide section {
+        flex-flow: wrap;
+        padding: 12px;
+    }
+
+    div.riverguide div:nth-child(odd){
+        flex-direction: row-reverse;
+    }
+    
+    div.riverguide img {
+        margin: 0;
+		max-width: 50%;
+        height: 20rem;
+        border: 2px solid #715858;
+    }
 }

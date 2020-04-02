@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="css/normalize.css">
     </head>
 
+    <body>
 <!-- navigation bar -->
     <header>
         <div>
@@ -20,17 +21,49 @@
                 <img src="images/logo.jpg" class="headerimg" alt="headerpic">
            <ul class="pureNav">
                <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
-               <li><a href="home.html">Home</a></li>
-               <li><a href="adventures.html">Adventures</a></li>
-               <li><a href="riverguide.html">River Guides</a></li>
-               <li><a href="reservation.html">Reservations</a></li>
-               <li class="active"><a href="contact.html">Contact Us</a></li>
+               <li><a href="https://sarahvihousley.github.io/Termproject/home.html">Home</a></li>
+               <li><a href="https://sarahvihousley.github.io/Termproject/adventures.html">Adventures</a></li>
+               <li><a href="https://sarahvihousley.github.io/Termproject/riverguide.html">River Guides</a></li>
+               <li><a href="https://sarahvihousley.github.io/Termproject/reservation.html">Reservations</a></li>
+               <li class="active"><a href="https://sarahvihousley.github.io/Termproject/contact.html">Contact Us</a></li>
             </ul>
        </nav>
     </div>
 </header>
 
-    <body>
+<!-- Contact Form -->
+<main>
+    <section>
+        <form class="contactform">
+            <h2>Contact Us</h2>
+            <hr>
+            <p type="Name:">Name<input placeholder="ex.John Doe..."></input></p>
+            <p type="Email:">Email<input placeholder="johndoe@example.com..."></input></p>
+            <p type="Number:">Phone Number<input placeholder="888-888-8888..."></input></p>
+            <p type="Message:">Message<input placeholder="More information..."></input></p>
+            <button>Submit</button>
+        </form>
+    </section>
+
+<!-- Contact -->
+    <section>
+        <div class="contact">
+            <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.487763552125!2d-111.87358429999999!3d42.0970234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f7e967e1ebc7%3A0x14469667cfe31546!2s30%20N%201st%20E%2C%20Preston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1581120314308!5m2!1sen!2sus"></iframe>
+            </div>
+            <h2>Contact Information</h2>
+            <hr>
+            <p>1000 S Main St.</p>
+            <p>Riggins, ID</p>
+            <p><img src="images/phone.svg" alt="phone">999-999-9999</p>
+            <p><img src="images/envelope.svg" alt="envelope">info@salmonriveradventures.com</p>
+            <p><img src="images/facebook.svg" alt="facebook">
+            <img src="images/instagram.svg" alt="instagram">
+            <img src="images/twitter.svg" alt="twitter"></p>
+        </div>
+    </section>
+</main>
+
+<!-- footer -->
     <footer>
         <p>&copy; Salmon River Adventures | Sarah Clark | BYUI CIT 230</p>
     </footer>

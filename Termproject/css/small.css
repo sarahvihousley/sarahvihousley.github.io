@@ -58,7 +58,7 @@ nav a:hover {
 
 /* main */
 section {
-    background-color: white;
+    background-color: #EDF9E3;
     padding: 10px;
     margin: 20px auto;
     text-align: center;
@@ -88,19 +88,14 @@ section a:hover {
   }
 
 /* River Guide */
-div {
-  margin: 0;
-}
-
 div.riverguide {
   display: grid;
 }
 
 div.riverguide div {
-  background-color: rgb(231, 231, 231);
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  border: 10px solid rgb(219, 219, 219);
+  background-color: #A57272;
+  border: 5px solid #A57272;
+  margin: 12px;
 }
 
 div.riverguide div img {
@@ -138,7 +133,45 @@ div.riverguide div img {
     margin: 2px;
   } 
 
+/* Contact Form */
+.contactform {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.contactform p {
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+  resize: none;
+  border: 0;
+  border-bottom: 2px solid #715858;
+  border-top: 2px solid #715858;
+}
+
+button {
+  padding: 8px 12px;
+  margin: auto;
+  border: 2px solid #715858;
+  color: #A57272;
+  background-color: #b7e1aa;
+  transition: all .3s;
+}
+
+button:hover {
+  background-color: #A57272;
+  color: #b7e1aa;
+}
+
 /* Contact Info */
+.contact {
+  background-color: #EDF9E3;
+}
   .contact img {
     height: 16px;
     margin: 0 3px;
@@ -153,6 +186,8 @@ div.riverguide div img {
   .map {
   display: none;
   }
+
+/* Reservation */
 
 /* footer */
 footer {
